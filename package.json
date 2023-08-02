@@ -12,9 +12,6 @@
     "transformIgnorePatterns": [
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
     ],
-    "moduleNameMapper": {
-      "\\.(css|less|sass|scss)$": "/home/majo/Documents/Microverse/React/pet-adoption/src/tests/styleMock.js"
-    },
     "verbose": true
   },
   "version": "0.1.0",
@@ -45,7 +42,7 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
+      "responsive",
       "not op_mini all"
     ],
     "development": [
