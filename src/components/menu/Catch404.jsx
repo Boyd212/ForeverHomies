@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import tempMenus from '../../scss/tempMenus.module.scss';
+import tempMenus from '../../scss/tempMenus.module.css';
 
 const Catch404 = props => {
   const { history } = props;

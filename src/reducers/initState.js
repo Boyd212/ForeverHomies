@@ -8,8 +8,8 @@ export const initPetState = {
     [
         //1
         {
-            id: '65724961',
-            organiation_id: '169',
+            id: 65724961,
+            organiation_id: 169,
             url: 'https://www.petfinder.com/dog/buddy-65724961/tx/houston/lone-star-shih-tzu-and-lhasa-apso-rescue-tx169/',
             type: 'Dog',
             species: 'Dog',
@@ -74,8 +74,8 @@ export const initPetState = {
         },
         //2
         {
-            id: '65725065',
-            organiation_id: '973',
+            id: 65725065,
+            organiation_id: 973,
             url: 'https://www.petfinder.com/cat/sun-65725065/tx/houston/city-of-houston-barc-animal-shelter-adoptions-tx973/',
             type: 'Cat',
             species: 'Cat',
@@ -140,8 +140,8 @@ export const initPetState = {
         },
         //3
         {
-            id: '65543215',
-            organiation_id: '403',
+            id: 65543215,
+            organiation_id: 403,
             url: 'https://www.petfinder.com/bird/hazel-65543215/tx/houston/houston-spca-tx403/',
             type: 'Duck',
             species: 'Bird',

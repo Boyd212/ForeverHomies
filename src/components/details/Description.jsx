@@ -1,7 +1,7 @@
 import React from 'react';
 import { Badge } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-import detailsStyles from '../../scss/detailsStyles.module.scss';
+import detailsStyles from '../../scss/detailsStyles.module.css';
 
 const Description = ({ pet }) => {
   const {

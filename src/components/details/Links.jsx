@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useRouteMatch } from 'react-router-dom';
-import detailsStyles from '../../scss/detailsStyles.module.scss';
+import detailsStyles from '../../scss/detailsStyles.module.css';
 
 const Links = () => {
   const { url } = useRouteMatch();

@@ -1,5 +1,5 @@
 import React from 'react';
-import detailsStyles from '../../scss/detailsStyles.module.scss';
+import detailsStyles from '../../scss/detailsStyles.module.css';
 
 const SocialDetails = () => (
   <div className={`${detailsStyles.socialDetails} col-12`}>

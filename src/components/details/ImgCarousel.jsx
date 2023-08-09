@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import PropTypes from 'prop-types';
-import detailsStyles from '../../scss/detailsStyles.module.scss';
+import detailsStyles from '../../scss/detailsStyles.module.css';
 
 const ImgCarousel = ({ photos, id }) => (
   <Carousel className="col-12 col-lg-6 p-0">
