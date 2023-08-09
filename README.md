@@ -14,14 +14,12 @@
 
 2. Matthew Boyd
 
-3. ...
-
 ## Installation Instructions
 
-- Clone our repo to your computer
-
-- ...more later
-
+- Clone our repo to your computer.
+- Run command promt "npm i".
+- Run "npm run build".
+- Run "npm run start
 
 ## Animated Gifs/Pictures of App
 
@@ -30,24 +28,26 @@
 ## Tech Stack
 
 - What languages is it written with: 
-    HTML, CSS, Javascripts
+    HTML, CSS, Javascript
 
 - What libraries are used:
-    React, MongoDB, Node, Express, GraphQL, MySQL2 others
+    React, Node, Express, {Planned:  GraphQL, MySQL2}
 
-- Other: Bootstrap, Ant Design
+- Other: Bootstrap
 
 
 ## APIs
 
--Reescuegroups.org Adoptable Pet Data API  
-    https://rescuegroups.org/services/adoptable-pet-data-api/
+-https://api.petfinder.com
 
-## MVP (Minimum Viable Product)
+## Future Development
 
 - A polished UI that allows for users to search for pets in need of a new home locally.  Will also feature a "memories" section for people to post photos and stories of pets they havee either adopted themselves or need a new 'forever home.'  
 
-
-## Stretch Goals
-
 -More ways for users to interact with each other, set apointment times to meet their potential new pet.  
+
+GitHub Repo: https://github.com/Boyd212/ForeverHomies
+
+GitHub Deployment: https://boyd212.github.io/ForeverHomies/
+
+Heroku: https://git.heroku.com/foreverhomies.git

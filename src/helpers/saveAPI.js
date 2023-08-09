@@ -1,5 +1,4 @@
 import tokenA from '../helpers/getToken';
-import saveAPI from '../helpers/saveAPI';
 
 const token = localStorage.getItem('tokenA');
 
