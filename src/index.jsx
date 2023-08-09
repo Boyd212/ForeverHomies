@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './scss/index.scss';
-import { createStore } from 'redux';
+import './scss/index.css';
+import { legacy_createStore } from 'redux';
 import { Provider } from 'react-redux';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 import rootReducer from './reducers/rootReducer';
 
-const store = createStore(rootReducer);
+const store = legacy_createStore(rootReducer);
 
 ReactDOM.render(
   <React.StrictMode>

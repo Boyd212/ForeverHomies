@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { changeFilter, changeDinamicFilter } from '../actions/index';
 import Filter from '../components/main/filter/Filter';
 import DinamicFilter from '../components/main/filter/DinamicFilter';
-import searchBar from '../scss/searchBar.module.scss';
+import searchBar from '../scss/searchBar.module.css';
 
 const SearchBar = props => {
   const {

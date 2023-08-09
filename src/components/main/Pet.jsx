@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Badge } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-import petStyles from '../../scss/petStyles.module.scss';
+import petStyles from '../../scss/petStyles.module.css';
 
 const Pet = ({ pet }) => {
   const {

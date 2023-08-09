@@ -1,4 +1,9 @@
-const saveAPI = token => {
+import tokenA from '../helpers/getToken';
+import saveAPI from '../helpers/saveAPI';
+
+const token = localStorage.getItem('tokenA');
+
+const saveAPI = tokenA => {
   const NOW = Math.round((new Date()).getTime() / 1000);
   let cachedAnimals = JSON.parse(localStorage.getItem('animalsCall'));
   if (cachedAnimals && cachedAnimals.savedAt > 86400) {
@@ -6,13 +11,14 @@ const saveAPI = token => {
   }
 
   localStorage.removeItem('animalsCall');
+  const tokenA = localStorage.getItem('token');
 
-  const cors = 'https://cors-anywhere.herokuapp.com/';
-  return fetch(`${cors}https://api.petfinder.com/v2/animals/?limit=100`,
+  //const cors = 'https://cors-anywhere.herokuapp.com/';
+  return fetch(`https://api.petfinder.com/v2/animals/?limit=100`,
     {
-      mode: 'cors',
+      ///mode: 'cors',
       headers: {
-        authorization: `Bearer ${token}`,
+        authorization: `Bearer ${tokenA}`,
         'Content-Type': 'application/x-www-form-urlencoded',
       },
     })

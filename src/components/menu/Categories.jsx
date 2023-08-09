@@ -1,5 +1,5 @@
 import React from 'react';
-import tempMenus from '../../scss/tempMenus.module.scss';
+import tempMenus from '../../scss/tempMenus.module.css';
 
 
 const Categories = () => (
